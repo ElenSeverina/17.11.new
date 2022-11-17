@@ -177,3 +177,55 @@ textarea {
   (min-resolution: 120dpi) {
   /* Style adjustments for high resolution devices */
 }
+
+body {
+  background-color: rgb(135, 156, 156);
+  width: 1440px;
+}
+
+.header__container {
+  height: 175px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.header__img {
+  height: 51px;
+  width: 180px;
+  margin: 85px 0 38px 80px;
+}
+
+.menu__list {
+  list-style : none;
+  width: 360px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 102px;
+  margin-left: 510px;
+  padding: 0;
+}
+
+.menu__link {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 17.1613px;
+  line-height: 21px;
+  color: #000;
+}
+
+button {
+  height: 50px;
+  width: 182px;
+  background: #000;
+  border-radius: 5.95238px;
+}
+
+.header_btn {
+  background: #75BF7A;
+  font-size: 18px;
+  color: #FFFFFF;
+  border: 0;
+  margin: 87px 80px 0 47px;
+}

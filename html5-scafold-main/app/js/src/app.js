@@ -1,3 +1,6 @@
+/*
 (function() {
   (new Example()).hello();
 })();
+*/
+
